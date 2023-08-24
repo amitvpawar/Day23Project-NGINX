@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  nginxweb:
+    image: day23nginx:latest
+    ports:
+      - "8000:80"
+
